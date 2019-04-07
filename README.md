@@ -11,4 +11,7 @@ The calculations are made following the McCluskey algorithm , I used a library c
 The filling of the input cases (Truth table) is made with a library called itertools , both of these library are already in github
 
 This a project to solve a problem that I faced , I'm sharing it so that people can use it since I could not find some easy to use app on internet (except from web apps but there was no source code and the number of inputs was limited) , to point from this app is to embed it in a bigger project so that you don't have to code the cases by yourself without using the GUI , or you can just use it as it is , that's why I added the GUI.
+I thought also that it would be a useful project as my first github repository.
+
+A.BOUJIDA.F@gmail.com for any issues
 
