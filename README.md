@@ -1,5 +1,5 @@
 # GraphicSeqCalculator
-This a python App that is supposed to calculate boolean function based on number of input/output variables + the cases where output variables are 1 or X or 0 
+This a python App that is supposed to calculate boolean function based on number of input/output variables + the cases where output variables are 1 or X or 0 \n
 The frame of this project was in a school subject (real time OS systems) where some of the problems , most of them were sequential ; In cases we're the output/input variables are few we can do the coding with switch case with no problem , but when the variables are many I suggested that we make a function that takes inputs states and set outputs through boolean function
 The App contain a GUI so you enter how much INPUT/OUTPUT you've got and you set the cases where you have 1/0/X and you get the boolean function
 The calculations are made following the McCluskey algorithm , I used a library called logicmin for the implementation of the algorithm
