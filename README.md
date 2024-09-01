@@ -1,24 +1,5 @@
-# GraphicSeqCalculator
+This is a Python application designed to compute Boolean functions based on the number of input/output variables and the cases where the output variables are 1, 0, or X. The project was developed during a course on real-time operating systems, where we encountered several sequential problems. When the input/output variables are few, coding with switch cases is manageable. However, for a larger number of variables, I proposed creating a function that takes input states and sets outputs using a Boolean function.
 
-This a python App that is supposed to calculate boolean function based on number of input/output variables + the cases where output variables are 1 or X or 0 
+The application includes a GUI where you can specify the number of inputs and outputs, set the cases for 1, 0, or X, and then obtain the corresponding Boolean function. The calculations are performed using the McCluskey algorithm, which I implemented with the help of the ‘logicmin’ library. For filling out the input cases (truth table), I used the ‘itertools’ library. Both of these libraries are available on GitHub.
 
-The frame of this project was in a school subject (real time OS systems) where some of the problems , most of them were sequential ; In cases we're the output/input variables are few we can do the coding with switch case with no problem , but when the variables are many I suggested that we make a function that takes inputs states and set outputs through boolean function
-
-The App contain a GUI so you enter how much INPUT/OUTPUT you've got and you set the cases where you have 1/0/X and you get the boolean function
-
-The calculations are made following the McCluskey algorithm , I used a library called logicmin for the implementation of the algorithm
-
-The filling of the input cases (Truth table) is made with a library called itertools , both of these library are already in github
-
-This a project to solve a problem that I faced , I'm sharing it so that people can use it since I could not find some easy to use app on internet (except from web apps but there was no source code and the number of inputs was limited) , the point of this app is to embed it in a bigger project (without using the GUI) so that you don't have to code the cases by yourself , or you can just use it as it is , that's why I added the GUI.
-I thought also that it would be a useful project as my first github repository.
-
-A.BOUJIDA.F@gmail.com for any issues
-
-
-<img width="1277" alt="Capture d’écran 2019-04-08 à 00 32 13" src="https://user-images.githubusercontent.com/20277257/55690825-b9e0e180-5996-11e9-95de-d468edd0f233.png">
-<img width="1280" alt="Capture d’écran 2019-04-08 à 00 32 30" src="https://user-images.githubusercontent.com/20277257/55690824-b9e0e180-5996-11e9-8742-b1a278a3e867.png">
-<img width="1280" alt="Capture d’écran 2019-04-08 à 00 33 19" src="https://user-images.githubusercontent.com/20277257/55690826-b9e0e180-5996-11e9-8a80-d7feaee7ada7.png">
-<img width="1280" alt="Capture d’écran 2019-04-08 à 00 33 49" src="https://user-images.githubusercontent.com/20277257/55690827-b9e0e180-5996-11e9-8016-620fadf995a2.png">
-<img width="1280" alt="Capture d’écran 2019-04-08 à 00 34 07" src="https://user-images.githubusercontent.com/20277257/55690828-ba797800-5996-11e9-9117-88e8d289fd9d.png">
-<img width="1280" alt="Capture d’écran 2019-04-08 à 00 34 11" src="https://user-images.githubusercontent.com/20277257/55690829-ba797800-5996-11e9-8d1a-b9fb902b4f8b.png">
+This project was born out of a need I faced and is now available for others to use, especially since I couldn’t find an easy-to-use application online—most available options were web apps with limited input capacity and no accessible source code. The app is designed to be embedded in larger projects (without the GUI) so that you don’t have to manually code the cases, or you can use it as it is, with the GUI. This is also my first GitHub repository, and I believe it will be a useful resource for the community.
